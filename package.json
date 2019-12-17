@@ -1,0 +1,19 @@
+{
+  "name": "typescriptcommvcelocalhost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w",
+    "server": "lite-server --baseDir=app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^2.0.42",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.3.2"
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Notas com TypeScript - Wesley Eduardo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+</head>
+
+<body class="container">
+    
+    <h1 class="text-center">Sistema de Notas - TypeScript com MVC e LocalHost</h1>
+    
+    <div id="mensagemView"></div>
+    
+    <form class="form">
+        
+        <div class="form-group">
+            <label for="nome">Nome do Aluno</label>
+            <input type="text" id="nome" class="form-control"  required autofocus/>
+        </div>   
+        
+        <div class="form-group">
+            <label for="nota1">Nota 1</label>
+            <input type="number"  id="nota1" class="form-control" required/>
+        </div>
+        
+        <div class="form-group">
+            <label for="nota2">Nota 2</label>
+            <input type="number"  id="nota2" class="form-control" required/>
+        </div>
+        
+        <div class="form-group">
+            <label for="frequencia">Frequência</label>
+            <input type="number"  id="frequencia" class="form-control" required/>
+        </div>
+        
+        <div class="form-group">
+            <label for="provaFinal">Prova Final ( caso necessário )</label>
+            <input type="number"  id="provaFinal" class="form-control" required/>
+        </div>
+        
+        
+        <button class="btn btn-primary" type="submit">Calcular</button>
+    </form>
+
+    <br>
+    <br>
+
+    <div id="negociacoesView"></div>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/system.js"></script>
+    <script>
+        System.defaultJSExtensions = true;
+        System.import('js/app.js').catch(err => console.error(err));
+    </script>
+</body>
+</html>
