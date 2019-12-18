@@ -1,0 +1,27 @@
+Processo de Instalação e configuração do TypeScript com LocalHost
+
+(Necessário Instalação do NodeJs -> Caso já tenha instalado, confirme a versão aplicando no terminal o comando npm -v)
+
+1 - Abra o terminal e navegue até a pasta do projeto (wesleyeduardocr7-typescriptcommvcelocalhost)
+
+2 - Execute os seguintes comandos no terminal 
+
+3 - npm init ( criar o arquivo package.json - Confirme as ações pressionando Ok até finalizar)
+
+4 - npm install @types/jquery@2.0.42 --save-dev ( Instalação JQuery )
+
+5 - npm install typescript@2.3.2 --save-dev ( instalar o TypeScript )
+
+6 - npm install lite-server@2.3.0 --save-dev ( Instalar Servidor Local ) 
+
+7 - npm install concurrently@3.4.0 --save-dev ( Comando para não ser necessário abrir 2 terminais (1 para compilador e 1 para LocalHost) )
+
+8 - npm start ( Roda o projeto em servidor local )
+
+
+---------------------
+COMANDOS AUXILIARES
+
+npm run compile ( rodar o compilador )  
+
+npm run server ( Roda Servidor )
