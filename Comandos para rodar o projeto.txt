@@ -8,9 +8,9 @@ Processo de Instalação e configuração do TypeScript com LocalHost
 
 3 - npm init ( criar o arquivo package.json - Confirme as ações pressionando Ok até finalizar)
 
-4 - npm install @types/jquery@2.0.42 --save-dev ( Instalação JQuery )
+4 - npm install typescript@2.3.2 --save-dev ( instalar o TypeScript )
 
-5 - npm install typescript@2.3.2 --save-dev ( instalar o TypeScript )
+5 - npm install @types/jquery@2.0.42 --save-dev ( Instalação JQuery )
 
 6 - npm install lite-server@2.3.0 --save-dev ( Instalar Servidor Local ) 
 
